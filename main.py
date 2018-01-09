@@ -18,7 +18,7 @@ mgs5 = Videogame(
                 "https://www.youtube.com/watch?v=NL4ZxDWLwpM")
 
 marioOddysey = Videogame(
-                "Zelda Breath of The Wild", "RPG", "E",
+                "Super Mario Odyssey", "RPG", "E",
                 "img/mario.jpg",
                 "https://www.youtube.com/watch?v=wGQHQc_3ycE")
 

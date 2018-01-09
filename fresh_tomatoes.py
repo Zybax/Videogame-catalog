@@ -41,7 +41,8 @@ main_page_head = '''
             transition: all ease-in 300ms;
         }
         .poster:hover{
-            box-shadow: 1px 1px 50px 6px white;
+            box-shadow: 1px 1px 20px 1px red;
+            transform:scale(1.1)
         }
         .movie-tile {
             margin-bottom: 20px;
