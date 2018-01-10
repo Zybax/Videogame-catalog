@@ -2,6 +2,7 @@ from videogame import Videogame
 import fresh_tomatoes
 
 
+# Videogame Instamces
 zeldaBOW = Videogame(
                 "Zelda Breath of The Wild", "RPG", "E",
                 "img/zelda.jpg",
@@ -32,7 +33,9 @@ theWitcher3 = Videogame(
                 "img/witcher.jpg",
                 "https://www.youtube.com/watch?v=53MyR_Z3i1w")
 
+# An array of Videogame instances
 games = [zeldaBOW, ds3, mgs5, marioOddysey, hollowKnight, theWitcher3]
 
+# Calling open_movies_page() method from fresh_tomatoes
+# with the array of Videogames as parameter
 fresh_tomatoes.open_movies_page(games)
-
